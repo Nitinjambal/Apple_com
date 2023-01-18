@@ -1,0 +1,21 @@
+.navbar{
+    display:flex;
+      width:66%;
+         margin:auto;
+         padding:10px;
+         align-items: center;
+         justify-content: space-around;
+         font-size: 12px;
+         text-align: center;   
+          position:sticky;
+         
+         /* z-index:1;    */
+}
+.navbarlink{
+ text-decoration:none;
+ color: white;
+ 
+ 
+}
+
+
