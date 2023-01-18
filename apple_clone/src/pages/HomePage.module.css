@@ -1,0 +1,32 @@
+.div{
+background-color: black;
+color: white;
+padding:30px
+}
+
+.div>h1{
+    font-size:56px;
+    background: -webkit-linear-gradient(rgb(56, 56, 202), white);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 3.5rem;
+  margin-top: 60px;
+}
+.Cards{
+    margin-top: 12px;
+    background-color: black;
+    color: white;
+    padding-top:26px;
+
+   
+}
+.Cards>h1{
+    font-size: 56px;
+}
+.Cards>h2{
+    font-size:25px;
+}
+
+
+
+/* style={{fontSize:"56px",color:"linerGradient(blue,white)"}} */
