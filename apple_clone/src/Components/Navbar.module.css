@@ -6,16 +6,14 @@
          align-items: center;
          justify-content: space-around;
          font-size: 12px;
-         text-align: center;   
-          position:sticky;
+         text-align: center; 
+         position: relative;
+         z-index: 6;
          
-         /* z-index:1;    */
 }
 .navbarlink{
  text-decoration:none;
- color: white;
- 
- 
+ color: white; 
 }
 
 
