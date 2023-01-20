@@ -5,7 +5,6 @@ import { FaSistrix } from "react-icons/fa";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 
 
-
 function Navbar() {
   return (
     <div className={styles.navbar}>

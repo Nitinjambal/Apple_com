@@ -2,16 +2,17 @@ import React from "react";
 import styles from "./HomePage.module.css"
 import { TfiApple } from "react-icons/tfi";
 import {AiFillApple } from "react-icons/ai";
-import ImageSlider, { Slide } from "react-auto-image-slider";
+import video from "../videos/podvid.mp4"
 
 function HomePage(){
     return(
        <div className={styles.Home}>
-            <div className={styles.div} >
-               <h1> Introducing the <br /> all-new HomePod.</h1>
-                </div>
-         <img src={require("../images/speaker.jpg")} style={{height:"320px",margin:"auto",width:"100%"}}/>
-         
+  <div className={styles.overlay}></div>
+<video src={video} autoPlay loop muted />
+  <div className={styles.div} >
+ <h1> Introducing the <br /> all-new HomePod.</h1>
+  </div>
+         {/* <img src={require("../images/speaker.jpg")} style={{height:"320px",margin:"auto",width:"100%"}}/> */}
          
           <div className={styles.Cards}>  
               
@@ -93,25 +94,6 @@ function HomePage(){
 {/* image slider */}
    
        
- <div className={styles.slider} style={{marginTop:"93.5%",}}>
- <ImageSlider effectDelay={500} autoPlayDelay={2000} style={{height:"29px",width:"80%"}} >
-      <Slide>
-        <img alt="img2" src="https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/738x416.webp" style={{height:"600px",width:"90%",margin:"auto"}} />
-      </Slide>
-      <Slide>
-        <img alt="img2" src="https://is5-ssl.mzstatic.com/image/thumb/7SeRlnCzKlgeqrg6-ixkig/738x416.webp" style={{height:"600px",width:"90%",margin:"auto"}}/>
-      </Slide>
-      <Slide>
-        <img alt="img1" src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/738x416.webp" style={{height:"600px",width:"90%",margin:"auto"}} />
-      </Slide>
-      <Slide>
-        <img alt="img1" src="https://is3-ssl.mzstatic.com/image/thumb/Jj8T9VNcfHfMQ4fDwp31-Q/738x416.webp" style={{height:"600px",width:"90%",margin:"auto"}} />
-      </Slide>
-      <Slide>
-        <img alt="img1" src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp" style={{height:"600px",width:"90%",margin:"auto"}}/>
-      </Slide>
-    </ImageSlider>
-  </div>
 
 
 <div className={styles.footer}>
@@ -143,7 +125,7 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
      <p style={{color:"black",marginTop:"15px"}}>For Education</p>
       Apple and Education <br />Shop for K-12 <br />Shop for College 
       <p style={{color:"black",marginTop:"15px"}}>For Healthcare</p>
-      Apple and Hearlthcare <br />Health on Apple Watch <br />Health Records on iPhone
+      Apple and Hearlthcare <br />Health on Watch <br />Health Records
       <p style={{color:"black",marginTop:"15px"}}>For Government</p>
       Shop for Government <br />Shop for Military
 
