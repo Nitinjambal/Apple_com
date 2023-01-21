@@ -45,48 +45,72 @@ function HomePage(){
 {/* small cards */}
        <div className={styles.smlcards}>
          <div> 
+            <div>
             <h1>Creativity and <br /> community. <br /> Woven together.</h1>
             <h3>Explore the new Black Unity watch <br /> band and matching face. </h3>
-            <img src={require("../images/watch img.jpg")} style={{height:"320px",margin:"auto"}}/>
+            </div>
+            <div>
+               <img src={require("../images/watch img.jpg")} style={{height:"320px",margin:"auto"}}/>
+               </div>
+
          </div>
 
          <div>
-           <h1>
-           <TfiApple style={{margin:"auto"}}/>
-            WATCH
-            </h1>
+            <div>
+           <h1><TfiApple style={{margin:"auto"}}/> WATCH</h1>
             <h4>SERIES 8</h4>
             <h3>A healthy leap ahead</h3>
+            </div>
+            <div>
             <img src={require("../images/watch r img.jpg")} style={{height:"363px",margin:"auto"}}/>
+            </div>
          </div>
 
          <div>
+            <div>
          <h1>iPhone 14 Pro</h1>
             <h3>Pro. Beyond.</h3>
+            </div>
+              <div>
             <img src={require("../images/iphone img.jpg")} style={{height:"410px",margin:"auto"}}/>
+            </div>
          </div>
 
+
          <div id={styles.whiteCards}>
+            <div>
          <h1>iPhone 14</h1>
             <h3>Big and bigger.</h3>
+            </div>
+            <div>
             <img src={require("../images/white iphone.jpg")} style={{height:"410px",margin:"auto"}}/>
+            </div>
          </div>
 
          <div id={styles.redCard}>
+            <div>
          <h1>A gift for every wish.</h1>
             <h3>Find something for everyone <br /> this Lunar New Year.</h3>
             <h4>Shop the gift guide</h4>
+            </div>
+            <div>
             <img src={require("../images/red iphone 2.jpg")} style={{height:"360px",margin:"auto"}}/>
+            </div>
          </div>
 
          <div id={styles.whiteCards2} >
+            <div>
          <h1>
             <AiFillApple style={{margin:"auto"}}/>
             Card
             </h1>
             <h3>Get up to 3% Daily Cash back <br />with every purchase.</h3>
+            </div>
+            <div>
             <img src={require("../images/white card.jpg")} style={{height:"360px",margin:"auto"}}/>
+            </div>
          </div>
+
 
 
        </div>

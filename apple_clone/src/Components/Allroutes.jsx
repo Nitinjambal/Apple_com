@@ -4,6 +4,7 @@ import { Routes,Route } from 'react-router-dom';
 import HomePage from '../pages/HomePage';
 import Accessories from '../pages/Accessories';
 import Store from '../pages/Store';
+import SinglePage from '../pages/SinglePage';
 
 function Allroutes() {
   return (
@@ -21,7 +22,7 @@ function Allroutes() {
     {/* <Route path="/support" element={<h1>Home</h1>}/>
     <Route path="/" element={<h1>Home</h1>}/> */}
     <Route path="cart" element={<h1>Cart</h1>}/>
-  </Routes>
+    <Route path="/products/:id" element={<SinglePage />}/>  </Routes>
   )
 }
 
