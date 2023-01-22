@@ -341,7 +341,7 @@ function Accessories() {
 
         {/* main products divs/card */}
        
-           <div className={styles.productsDiv} onClick={handleClick}>
+           <div className={styles.productsDiv} >
           
               <div>
                   <h1>Featured Lunar New Year Accessories</h1>
@@ -375,10 +375,7 @@ function Accessories() {
              <Responsive details={details6}/> 
          </div>
 
-         {/* <div>
-             <h1>Products from different Companies</h1>
-             <Responsive object={<ApiProducts/>}/> 
-         </div> */}
+        
         
            </div>
            
