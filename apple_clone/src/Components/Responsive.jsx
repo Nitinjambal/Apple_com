@@ -6,6 +6,7 @@ import styles from "./Responsive.module.css"
 
 const Responsive=(props)=>{
     const {id,images,p,h3,price}=props;
+    console.log(props)
     const responsive ={
         
         desktop: {

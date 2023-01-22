@@ -2,7 +2,9 @@ import React from "react";
 import styles from "./HomePage.module.css"
 import { TfiApple } from "react-icons/tfi";
 import {AiFillApple } from "react-icons/ai";
-import video from "../videos/podvid.mp4"
+import video from "../videos/podvid.mp4";
+import ImageSlider, { Slide } from "react-auto-image-slider";
+
 
 function HomePage(){
     return(
@@ -164,7 +166,6 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
 </div>
 
 </div>
-
 
 
 

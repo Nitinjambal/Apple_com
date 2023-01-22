@@ -374,6 +374,11 @@ function Accessories() {
              <h1>Sound Essentials</h1>
              <Responsive details={details6}/> 
          </div>
+
+         {/* <div>
+             <h1>Products from different Companies</h1>
+             <Responsive object={<ApiProducts/>}/> 
+         </div> */}
         
            </div>
            
