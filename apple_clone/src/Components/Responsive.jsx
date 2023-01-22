@@ -3,6 +3,8 @@ import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import styles from "./Responsive.module.css"
+import { useParams, Link as RouterLink } from 'react-router-dom';
+
 
 const Responsive=(props)=>{
     const {id,images,p,h3,price}=props;
@@ -14,6 +16,7 @@ const Responsive=(props)=>{
           items: 3
         },
       };
+
     return(
       
         <Carousel responsive={responsive} className={styles.Carousel} >

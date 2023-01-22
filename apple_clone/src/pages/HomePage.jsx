@@ -3,7 +3,7 @@ import styles from "./HomePage.module.css"
 import { TfiApple } from "react-icons/tfi";
 import {AiFillApple } from "react-icons/ai";
 import video from "../videos/podvid.mp4";
-import ImageSlider, { Slide } from "react-auto-image-slider";
+// import ImageSlider, { Slide } from "react-auto-image-slider";
 
 
 function HomePage(){
@@ -134,15 +134,15 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
     </div>
 
 <div className={styles.outfooter}>
-  <div> <p style={{color:"black"}}> Shop and Learn</p> 
+  <div> <p> Shop and Learn</p> 
    store <br />Mac <br />iPad <br />iPhone <br />Watch <br />AirPods <br />TV & Home <br />AirTag <br />Accessiors <br />Gift Cards</div>
-  <div><p style={{color:"black"}}>Services</p>
+  <div><p>Services</p>
     Apple Music <br />Apple TV+ <br />Apple Fitness+ <br />Apple News+ <br />Apple Arcade <br />iCloud <br />Apple One <br />Apple Card <br />Apple Books <br />Apple Podcasts <br />App Store
     <p style={{color:"black",marginTop:"15px"}}>Account</p>
     Manage Your Apple ID <br />Apple Store Account <br />ICloud.com
   </div>
 
-  <div><p style={{color:"black"}}>Apple Store</p>
+  <div><p>Apple Store</p>
     Find a Store <br />Genius Bar <br />Today at Apple <br />Apple Camp <br />Apple Store App <br />Refurbished <br />Financing <br />Apple Trade in <br />Order Status <br />Shopping Help
   </div>
 
